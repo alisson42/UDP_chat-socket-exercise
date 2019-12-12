@@ -1,8 +1,10 @@
-##This is a simplified version of a chat using UDP protocol, developed by
+@This is a simplified version of a chat using UDP protocol, developed by
+
 	Alisson Rodrigues de Paula
 
 
-##General Instructions:
+@General Instructions:
+
 	#in the Ubuntu Terminal, access the folder of the project (using 'cd'), wich has two sub-directories:
 		- Client
 		- Server
