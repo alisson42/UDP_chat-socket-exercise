@@ -1,19 +1,19 @@
-#This is a simplified version of a chat using UDP protocol, developed by
+##This is a simplified version of a chat using UDP protocol, developed by
 	Alisson Rodrigues de Paula
 
 
-#General Instructions:
-	*in the Ubuntu Terminal, access the folder of the project (using 'cd'), wich has two sub-directories:
+##General Instructions:
+	#in the Ubuntu Terminal, access the folder of the project (using 'cd'), wich has two sub-directories:
 		- Client
 		- Server
 
-	*inside the directory -Server- use the commands:
+	#inside the directory -Server- use the commands:
 		make
 		./chatserver &
 
 	the command "make" will compile all *.c and *.h files, and the command "./chatserver" will execute the server. Since the server doesn't show (print) anything on the screen, it can run in background (&).
 
-	*inside the directory -Client- use the commands:
+	#inside the directory -Client- use the commands:
 		gcc chat_client-UDP.c -o client -pthread
 		./client
 
